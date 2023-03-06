@@ -1,0 +1,69 @@
+html, body {
+    padding: 10px;
+}
+@font-face {
+    src: url("Digital7Monoitalic-8MDLJ.ttf");
+    font-family: calculator;
+}
+h3 {
+    color: white;
+    font-size: 20px;
+}
+p {
+    color: red;
+    font-family: calculator;
+    font-size: 45px;
+    margin: 0;
+}
+button {
+    width: 30px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.container {
+    margin: 70px;
+    display: flex;
+    width: 300px;
+    height: 170px;
+    border: 1px solid black;
+    background-color: blue;
+}
+.first {
+    width: 125px;
+    height: 170px;
+    text-align: center;
+}
+.second {
+    width: 50px;
+    height: 170px;
+    display: flex;
+    align-items: flex-end;
+}
+.third {
+    width: 125px;
+    height: 170px;
+    text-align: center;
+}
+#home-score {
+    position: relative;
+    left: 15px;
+    width: 90px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: black;
+}
+#guest-score {
+    position: relative;
+    left: 15px;
+    width: 90px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: black;
+}
+#savebtn {
+    width: 45px;
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
